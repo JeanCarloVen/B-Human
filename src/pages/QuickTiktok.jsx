@@ -1,3 +1,4 @@
+import ReactPlayer from 'react-player'
 import tiktok from "../images/tiktokimage.jpg"
 
 const QuickTiktok = () => {
@@ -5,7 +6,8 @@ const QuickTiktok = () => {
     <div className="container mt-16 mx-auto text-center content-center lg:h-screen">
     <div className="flex flex-wrap flex-row justify-center">
       <div className="p-4 h-lvh">
-        <img className="rounded-xl h-4/5" src={tiktok} alt="" />
+        {/* <img className="rounded-xl h-4/5" src={tiktok} alt="" /> */}
+        <ReactPlayer url='https://www.youtube.com/watch?v=LXb3EKWsInQ' />
       </div>
       <div className="flex flex-wrap flex-col justify-center sm:mb-0 md:mb-5 lg:mb-20">
         <div className="font-Montserrat text-2xl text-sky-500 p-2 ml-10 m-5">
@@ -16,6 +18,7 @@ const QuickTiktok = () => {
           </button>
           
       </div>
+      
     </div>
   </div>
   )

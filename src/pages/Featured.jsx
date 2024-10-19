@@ -4,10 +4,7 @@ const Featured = () => {
       <div className="flex flex-wrap flex-row justify-center items-center">
         <div className="m-12 lg:mb-2 sm:mt-10">
           <h1 className="font-Montserrat font-bold text-5xl text-slate-50 p-1 sm:mb-7 md:mb-2 lg:m-1">
-            Featured
-          </h1>
-          <h1 className="font-Montserrat font-light text-4xl text-slate-50 sm:mb-7 md:mb-2 lg:m-5">
-            Lorem ipsum dolor sit.
+          Ve las soluciones que tenemos para ti
           </h1>
         </div>
         <div className="p-5 mb-20 grid-cols-1 sm:grid md:grid-cols-3">
