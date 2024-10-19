@@ -11,13 +11,19 @@ const Index = () => {
     <>
       <div className="bg-custom-gray">
         <Presentation/>  
+      </div >
+      <div className="bg-slate-50">
+        <Explanation/>
       </div>
-      <Explanation/>
       <div className="bg-custom-darkestblueA">
         <Featured/>
       </div>
-      <Cuote/>
-      <QuickTiktok/>
+      <div className="bg-slate-50">
+        <Cuote/>
+      </div>
+      <div className="bg-slate-50">
+        <QuickTiktok/>
+      </div>
       <div className="bg-white shadow dark:bg-custom-darkestblueB w-full  mx-auto p-4 md:py-8">
         <Footer/> 
       </div>

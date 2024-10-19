@@ -1,18 +1,29 @@
-import elearning from "../images/elearning.webp";
+import React from "react";
+//https://www.youtube.com/watch?v=7GtkKqxux-w
 
 const Explanation = () => {
   return (
-    <div className="container mx-auto mt-16 text-center content-center lg:h-screen">
+    <div className="mx-auto  text-center content-center lg:h-screen">
       <div className="flex flex-wrap flex-row justify-center items-center">
         <div className="flex flex-wrap flex-col ">
           <div className="p-3 m-4 w-96">
-              <h1 className="font-Montserrat font-bold text-3xl text-sky-950 p-1 mb-8 sm:mb-7  md:mb-5">Expertos en diseño instruccional</h1>
-              <p className="font-Montserrat font-bold text-lg text-sky-950 text-justify p-1 mb-8 sm:mb-7  md:mb-5">De la mano de expertos en educación te enseñamos a crear experiencias que se adapten a la necesidades de tus alumnos, adoptando las funcionalidades web con la intención ofrezcas un aprendizaje signifcativo  </p>
+            <h1 className="font-Montserrat font-bold text-4xl text-sky-950 p-1 mb-8 sm:mb-7  md:mb-5">
+              Expertos en diseño instruccional
+            </h1>
+            <p className="font-Montserrat font-bold text-2xl text-sky-950 text-justify p-1 mb-8 sm:mb-7  md:mb-5">
+              De la mano de expertos en educación, te enseñaremos a crear
+              experiencias que se adapten a la necesidades de tus alumnos.
+            </p>
           </div>
         </div>
-        <div className="p-4">
-              <img className="rounded-3xl md:h-auto" src={elearning} alt="" />
-          </div>
+        <div className="mb-10">
+          <iframe 
+            className="w-[400px] h-[225px] md:w-[560px] md:h-[315px] lg:w-[560px] lg:h-[315px] "
+            src="https://www.youtube.com/embed/7GtkKqxux-w?si=1KN4gH1y7STJd58R"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          ></iframe>
+        </div>
       </div>
     </div>
   );

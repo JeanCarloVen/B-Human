@@ -9,3 +9,35 @@
           
         </nav>
       </div>
+
+
+      https://drive.google.com/drive/folders/1Esb-s00vAHSHJ-JDzJ-PtFTTZXE5aK7R
+
+      <nav className="bg-custom-softblueB shadow shadow-gray-300 w-full fixed">
+        <div className="md:flex items-center justify-between flex-wrap py-4 md:px-10 px-7">
+          {/* <!-- Logo --> */}
+            {/* Meny icon */}
+            {/* <!-- Heroicon - Chip Outline --> */}
+            <img src={logotipo} width={150} height={150}alt="Your SVG"/>
+            <div onClick={ ()=> setOpen( !open )} className="absolute right-8 top-6 cursor-pointer md:hidden w-7 h-7">
+              {
+                open ? <XMarkIcon/> : <Bars3BottomRightIcon/>
+              }
+            </div>
+          
+          {/* linke items */}
+            <ul className="flex font-semibold justify-between">
+              {/* <!-- Active Link = text-indigo-500 */}
+              {/* Inactive Link = hover:text-indigo-500 --> */}
+              <li className="md:px-4 md:py-2 hover:text-indigo-400">
+                <a href="#">Pricing</a>
+              </li>
+              <li className="md:px-4 md:py-2 hover:text-indigo-400">
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          
+          <div className="order-2 md:order-3">
+            
+          </div>
+        </div>
