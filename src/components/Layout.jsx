@@ -1,11 +1,7 @@
 import React, { useState } from "react";
 import { Outlet } from "react-router-dom";
-<<<<<<< HEAD
 import logotipo from "../images/Logo-4.svg";
 import { Bars3BottomRightIcon, XMarkIcon } from "@heroicons/react/24/solid";
-=======
-import logotipo from "../images/Logo-4.svg"
->>>>>>> c8ea9a12b63e3ec109ee08b735df2c24213dcc37
 
 function Layout() {
   let Links = [
@@ -17,20 +13,11 @@ function Layout() {
 
   return (
     <>
-<<<<<<< HEAD
       <div className="shadow-md w-full fixed top-0 left-0 z-50">
         <div className="md:flex items-center justify-between bg-custom-softblueB py-4 md:px-10 px-7">
           {/* logo section */}
           <div className="font-bold text-2xl cursor-pointer flex items-center gap-1">
             <img src={logotipo} width={150} height={150} alt="Your SVG" />
-=======
-      <nav class="bg-custom-softblueB shadow shadow-gray-300 w-100 px-8 md:px-auto">
-        <div class="md:h-16 h-28 mx-auto md:px-4 container flex items-center justify-between flex-wrap md:flex-nowrap">
-          {/* <!-- Logo --> */}
-          <div class="text-slate-50 md:order-1">
-            {/* <!-- Heroicon - Chip Outline --> */}
-            <img src={logotipo} width={150} height={150}alt="Your SVG"/>
->>>>>>> c8ea9a12b63e3ec109ee08b735df2c24213dcc37
           </div>
           {/* Menu icon */}
           <div
