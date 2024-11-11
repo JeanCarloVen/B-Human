@@ -11,6 +11,7 @@
       </div>
 
 
+<<<<<<< HEAD
       https://drive.google.com/drive/folders/1Esb-s00vAHSHJ-JDzJ-PtFTTZXE5aK7R
 
       <nav className="bg-custom-softblueB shadow shadow-gray-300 w-full fixed">
@@ -41,3 +42,6 @@
             
           </div>
         </div>
+=======
+      https://drive.google.com/drive/folders/1Esb-s00vAHSHJ-JDzJ-PtFTTZXE5aK7R
+>>>>>>> c8ea9a12b63e3ec109ee08b735df2c24213dcc37
